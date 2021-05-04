@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_taller_dos/screens/home.dart';
+import 'package:flutter_taller_dos/screens/list_example.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 void main() {
@@ -29,7 +30,7 @@ class _LoginState extends State<Login> {
   void initState() {
     super.initState();
   }
-/**esto es un comentario */
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -130,7 +131,7 @@ class _LoginState extends State<Login> {
     );
     Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => Home()),
+        MaterialPageRoute(builder: (context) => ListExample()),
       );
 
 
